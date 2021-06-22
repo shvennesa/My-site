@@ -1,0 +1,144 @@
+/* TAG SELECTOR */
+body {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1{
+  color: #8785a2;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5rem;
+  
+}
+h2 {
+  color: #8785a2;
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-top: 20px;
+}
+h3 {
+  color: #9491c9;
+  font-family: 'Lato', sans-serif;
+}
+hr {
+  border: dotted #7f8a8a 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+p {
+  line-height: 2;
+}
+a {
+  color: #9491c9;
+  font-family: 'Lato', sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff;
+}
+
+
+/* CLASS SELECTOR */
+.stu {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  width: 10%;
+  position: absolute;
+  right: 200px;
+  top: 5px;
+}
+
+.bottom-cloud {
+  width: 10%;
+  position: absolute;
+  left: 150px;
+  bottom: 50px;
+}
+
+.mountain {
+  width: 100%;
+}
+
+.top_container {
+  background-color: #ffe2e2;
+  position: relative;
+  padding-top: 30px;
+}
+
+.middle_container {
+  background-color: #ffffff;
+  margin: 20px auto 50px auto;
+}
+
+.bottom_container {
+  background-color: #ffe2e2;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.bio {
+  color: #210922;
+  margin: auto 150px;
+}
+.dd_icon {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.leadership_icon {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.skill-row-1 {
+  width: 50%;
+  text-align: left;
+  margin: 50px auto;
+}
+.skill-row-2 {
+  width: 50%;
+  text-align: left;
+  margin: 150px auto 0px auto;
+}
+.contact-message {
+  margin: 10px auto 30px auto;
+}
+.btn {
+  background: #121f1f;
+  background-image: -webkit-linear-gradient(top, #121f1f, #dbc0db);
+  background-image: -moz-linear-gradient(top, #121f1f, #dbc0db);
+  background-image: -ms-linear-gradient(top, #121f1f, #dbc0db);
+  background-image: -o-linear-gradient(top, #121f1f, #dbc0db);
+  background-image: linear-gradient(to bottom, #121f1f, #dbc0db);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #8d489e;
+  background-image: -webkit-linear-gradient(top, #8d489e, #427496);
+  background-image: -moz-linear-gradient(top, #8d489e, #427496);
+  background-image: -ms-linear-gradient(top, #8d489e, #427496);
+  background-image: -o-linear-gradient(top, #8d489e, #427496);
+  background-image: linear-gradient(to bottom, #8d489e, #427496);
+  text-decoration: none;
+}
+.copyright {
+  color: #ffffff;
+  font-size: 0.75rem;
+  padding: 10px 0;
+}
